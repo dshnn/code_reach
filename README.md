@@ -194,7 +194,11 @@ Everything is displayed through a clean **Streamlit** interface where the user s
 
 # 📸 Demo
 
-*(Add screenshots or GIFs here)*
+![Homepage](assets/homepage.png)
+
+![Generated Results](assets/sucess.png)
+
+![Error](assets/error.png)
 
 ---
 
