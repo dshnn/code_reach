@@ -1,0 +1,157 @@
+/* ================================
+   Google Font
+================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* ================================
+   Main App
+================================ */
+
+html,
+body,
+[class*="css"] {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Background */
+
+.stApp {
+    background-color: #0D1117;
+    color: #E6EDF3;
+}
+
+/* Make content narrower */
+
+.block-container {
+    max-width: 900px;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+/* ================================
+   Headings
+================================ */
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+h2,
+h3 {
+    color: #F0F6FC;
+}
+
+/* ================================
+   Paragraphs
+================================ */
+
+p {
+    color: #ffffff;
+    line-height: 1.7;
+}
+
+/* ================================
+   Divider
+================================ */
+
+hr {
+    border: none;
+    border-top: 1px solid #30363D;
+}
+
+/* ================================
+   Text Input
+================================ */
+
+div[data-testid="stTextInput"] input {
+
+    background-color: #161B22;
+
+    color: white;
+
+    border-radius: 12px;
+
+    border: 1px solid #30363D;
+
+    padding: 14px;
+
+    font-size: 16px;
+}
+
+div[data-testid="stTextInput"] input:focus {
+
+    border: 1px solid #58A6FF;
+
+    box-shadow: 0 0 8px rgba(88,166,255,.25);
+}
+
+/* ================================
+   Button
+================================ */
+
+div.stButton > button {
+
+    width: 100%;
+
+    height: 3.3rem;
+
+    background: #1ec740;
+
+    color: rgb(255, 255, 255);
+
+    border: none;
+
+    border-radius: 12px;
+
+    font-size: 17px;
+
+    font-weight: 600;
+
+    transition: 0.25s;
+}
+
+div.stButton > button:hover {
+
+    background: #2EA043;
+
+    transform: translateY(-2px);
+}
+
+/* ================================
+   Text Area
+================================ */
+
+textarea {
+
+    background: #161B22 !important;
+
+    color: white !important;
+
+    border-radius: 12px !important;
+
+    border: 1px solid #30363D !important;
+
+    font-size: 15px;
+}
+
+/* ================================
+   Code Block
+================================ */
+
+code {
+
+    color: #58A6FF;
+}
+
+/* ================================
+   Success
+================================ */
+
+div[data-testid="stAlert"] {
+
+    border-radius: 12px;
+}
