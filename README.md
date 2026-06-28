@@ -4,9 +4,7 @@
 Stop sending generic resumes. Start sending project pitches.
 </p>
 
-#🚀 CodeReach
 
-> **Stop sending generic resumes. Start sending project pitches.**
 
 CodeReach is an AI-powered full-stack application built for **freshers, students, and aspiring developers** who want to stand out while applying for jobs or reaching out to companies.
 
